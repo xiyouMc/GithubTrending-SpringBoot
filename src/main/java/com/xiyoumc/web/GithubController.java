@@ -61,15 +61,6 @@ public class GithubController {
   @RequestMapping("/login")
   public GithubUserBean login(@RequestParam("username") String username,
       @RequestParam("password") String password) {
-
-//    trustSelfSignedSSL();
-
-//    SimpleClientHttpRequestFactory reqfac = new SimpleClientHttpRequestFactory();
-//    reqfac.setProxy(new Proxy(Type.HTTP, new InetSocketAddress("127.0.0.1", 8888)));
-//    HttpClient httpClient = HttpClientBuilder.create()
-//        .setRedirectStrategy(new LaxRedirectStrategy())
-//        .build();
-//    reqfac.setH
     SSLContext ctx = null;
     try {
       ctx = SSLContext.getInstance("TLS");
