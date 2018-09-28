@@ -1,6 +1,6 @@
 package com.xiyoumc.bean;
 
-public class GithubUserBean {
+public class GithubUserBean extends BaseBean {
 
   private String user;
   private String avatar;
