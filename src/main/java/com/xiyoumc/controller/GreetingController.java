@@ -1,4 +1,4 @@
-package com.xiyoumc.web;
+package com.xiyoumc.controller;
 
 import com.xiyoumc.model.Greeting;
 import com.xiyoumc.service.HelloWorldService;

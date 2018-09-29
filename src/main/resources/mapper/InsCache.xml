@@ -1,0 +1,13 @@
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiyoumc.dao.InsCacheDao">
+  <insert id="addInsCache" parameterType="InsCache">
+    insert into insCache(md5,url) values(#{md5},#{url})
+  </insert>
+
+  <select id="getInsUrlByMd5" resultType="InsCache">
+    select * from insCache where md5=#{md5}
+  </select>
+</mapper>

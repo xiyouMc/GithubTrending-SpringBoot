@@ -1,4 +1,4 @@
-package com.xiyoumc.web;
+package com.xiyoumc.controller;
 
 import com.xiyoumc.bean.BaseBean;
 import com.xiyoumc.bean.GithubUserBean;
