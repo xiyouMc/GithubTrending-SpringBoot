@@ -5,8 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.0x2048.python</groupId>
-  <artifactId>GithubTrending</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>InsLoader</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -20,7 +21,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
